@@ -111,8 +111,7 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
 Clona el repositorio:
 
 ```bash
-Copiar
-Editar
+
 git clone https://github.com/angelesGladin/TelecomX-Churn.git
 cd TelecomX-Churn
 ```

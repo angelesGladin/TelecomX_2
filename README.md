@@ -135,4 +135,15 @@ notebooks/: Todos los pasos de análisis, modelado y evaluación
 
 ---
 
-👨‍💻 Autor
+## ✅ Estado del Proyecto
+
+✔️ Finalizado | 📅 Agosto 2025
+
+---
+
+## :bow: Autora
+
+[<img src="https://avatars.githubusercontent.com/u/160809137?s=400&u=53819c9e0bceb756b1c959b51623021829b0f8ae&v=4" width=115><br><sub>Angeles Morales</sub>](https://github.com/angelesGladin) 
+
+Proyecto desarrollado para TelecomX - Alura Latam - OracleONE G8
+

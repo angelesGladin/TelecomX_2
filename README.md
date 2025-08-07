@@ -15,10 +15,6 @@ Proyecto de análisis y modelado predictivo para anticipar la cancelación de cl
 ├── requirements.txt # Paquetes necesarios
 └── README.md # Este archivo
 
-markdown
-Copiar
-Editar
-
 ---
 
 ## 🧠 Objetivo del Proyecto
@@ -108,16 +104,51 @@ Según SHAP y análisis de correlación:
 + shap
 
 ---
+## ▶️ Cómo Ejecutar el Proyecto
 
-Instala las dependencias con:
+Sigue estos pasos para correr el proyecto en tu máquina local:
+
+Clona el repositorio:
 
 ```bash
-pip install -r requirements.txt
+Copiar
+Editar
+git clone https://github.com/angelesGladin/TelecomX-Churn.git
+cd TelecomX-Churn
+```
+Crea un entorno virtual (opcional pero recomendado):
 
+```bash
+
+python -m venv venv
+source venv/bin/activate      # En Linux/macOS
+venv\Scripts\activate         # En Windows
+```
+
+Instala las dependencias:
+
+```bash
+
+pip install -r requirements.txt
+```
+Abre los notebooks en Jupyter o VSCode:
+
+```bash
+
+jupyter notebook
+📓 Los notebooks están en la carpeta notebooks/ y siguen el orden lógico desde exploración hasta evaluación de modelos.
+```
+(Opcional) Ejecuta todo el flujo automáticamente:
+
+Si creas un script final (por ejemplo, pipeline.py), puedes correrlo con:
+
+```bash
+
+python pipeline.py
 ```
 ----
 
-📌 Notas Técnicas
+## 📌 Notas Técnicas
 
 Se utilizó SMOTE para balancear clases antes del entrenamiento
 
@@ -127,7 +158,9 @@ Las métricas se evaluaron sobre el set de prueba
 
 Interpretabilidad usando shap.summary_plot y coeficientes logísticos
 
-📚 Archivos Relevantes
+## 📚 Archivos Relevantes
+
+conjunto de datos se encuentran en este repositorio datos_tratados.cvs
 
 informe_cancelacion_telecom_x: Informe técnico detallado del proyecto
 
